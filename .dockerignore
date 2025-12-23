@@ -1,0 +1,41 @@
+# Node dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build output
+dist
+coverage
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Git & VCS
+.git
+.gitignore
+
+# Docker files (optional)
+docker-compose.yml
+Dockerfile
+
+# Jenkins
+Jenkinsfile
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Logs
+*.log
+
+# Test files
+test
+*.spec.ts
+
+# Misc
+README.md
